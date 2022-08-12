@@ -80,12 +80,9 @@ def isGtGraph(g):
        edges=partionGraph(twin_sets) 
        if(len(edges)>0):
            p_graph = Graph(edges)
-           ## condition for ring graph.   time complexity O(n^2)
-           if (not isRing(p_graph)[0]):
+           ## condition for ring graph.   time complexity O(n^2) for 7-antihole  time complexity O(1)
+           if (not isRing(p_graph)[0] and len(twin_sets)!=7):
                return False  
-       #  for 7-antihole  time complexity O(1)
-           elif ( len(twin_sets)!=7): 
-                return False
     else:
          return False
  return True
