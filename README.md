@@ -35,5 +35,7 @@ example: if we need to execute gut_recognition graph algorithm, give below comma
         
         python gut_recognition.py 
 
+        returns True or Flase
+
 Use "pprint" function  for better representation of graph object in console.
 ###### Note: Before executing any algorithm, please provide respective Graph G connections as input in that particular executing file and save it. 
