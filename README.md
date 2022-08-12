@@ -8,6 +8,13 @@ Graph representation example:
      c:{a,b},
      d:{b}}
 ]
+
+
+##### Dependency 
+
+Need python version >3.7
+
+
 ### Time complexity if graph G stored in dict set:
 Here n and m are vertices and edges
 For adding edge:O(1)
