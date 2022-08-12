@@ -29,6 +29,7 @@ def isGutGraph(g:Graph):
      return False
  order,fillin_graph, clique_gen=MCS(g)
  leafs,clique_sptr=cliqueCutsets(g,fillin_graph,clique_gen,order)
+ print("clique separators::",clique_sptr)
  for leaf_g in leafs:
         ## for obtaiing anitcomponents:
         ## complement of graph 
